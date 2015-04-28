@@ -14,12 +14,12 @@
 
   <li>
     <strong>Summary:</strong>
-    <%= @post.summary %>
+    <%= {:safe, Earmark.to_html @post.summary} %>
   </li>
 
   <li>
     <strong>Content:</strong>
-    <%= @post.content %>
+    <%= {:safe, Earmark.to_html @post.content} %>
   </li>
 
   <li>
