@@ -11,8 +11,8 @@ defmodule Sepal.Post do
     timestamps
   end
 
-  @required_fields ~w(url title summary content published_at)
-  @optional_fields ~w()
+  @required_fields ~w(url title summary content)
+  @optional_fields ~w(published_at)
 
   @doc """
   Creates a changeset based on the `model` and `params`.

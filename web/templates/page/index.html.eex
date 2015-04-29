@@ -1,5 +1,5 @@
 <div class="jumbotron">
-  <h2>Wally's World</h2>
+  <h2>Geoff's Blog</h2>
   <p class="lead">Check it out</p>
 </div>
 
@@ -16,7 +16,7 @@
   </div>
 
   <div class="col-lg-6">
-    <h4>Help</h4>
+    <h4>About</h4>
     <ul>
       <li>
         <a href="https://github.com/phoenixframework/phoenix/issues?state=open">Issues</a>
@@ -25,7 +25,7 @@
         <a href="irc://irc.freenode.net/elixir-lang">#elixir-lang on freenode IRC</a>
       </li>
       <li>
-        <a href="https://twitter.com/chris_mccord">@chris_mccord</a>
+        <a href="https://twitter.com/justHGH">@justHGH</a>
       </li>
     </ul>
   </div>

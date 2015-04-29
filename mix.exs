@@ -33,6 +33,7 @@ defmodule Sepal.Mixfile do
      {:postgrex, ">= 0.0.0"},
      {:phoenix_live_reload, "~> 0.3"},
      {:cowboy, "~> 1.0"},
-     {:earmark, "~> 0.1.15"}]
+     {:earmark, "~> 0.1.15"},
+     {:timex, "~> 0.13.4"}]
   end
 end

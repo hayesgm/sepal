@@ -3,6 +3,6 @@ defmodule Sepal.PageControllerTest do
 
   test "GET /" do
     conn = get conn(), "/"
-    assert conn.resp_body =~ "Welcome to Phoenix!"
+    assert conn.resp_body =~ "Geoff's Blog"
   end
 end
