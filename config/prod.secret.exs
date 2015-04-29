@@ -8,6 +8,5 @@ config :sepal, Sepal.Endpoint,
 
 # Configure your database
 config :sepal, Sepal.Repo,
-  adapter: Ecto.Adapters.Postgres,
   url: {:system, "DATABASE_URL"}
 
