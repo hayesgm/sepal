@@ -8,7 +8,5 @@ config :sepal, Sepal.Endpoint,
 
 # Configure your database
 config :sepal, Sepal.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "sepal_prod"
+  url: {:system, "DATABASE_URL"}
+
