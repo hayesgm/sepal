@@ -8,5 +8,5 @@ config :sepal, Sepal.Endpoint,
 
 # Configure your database
 config :sepal, Sepal.Repo,
-  url: {:system, "DATABASE_URL"}
+  url: System.get_env("DATABASE_URL")
 
