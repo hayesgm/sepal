@@ -28,12 +28,14 @@ defmodule Sepal.Mixfile do
   #
   # Type `mix help deps` for examples and options
   defp deps do
-    [{:phoenix, "~> 0.11"},
-     {:phoenix_ecto, "~> 0.3"},
+    [{:phoenix, "~> 0.12"},
+     {:phoenix_ecto, "~> 0.3.2"},
      {:postgrex, ">= 0.0.0"},
      {:phoenix_live_reload, "~> 0.3"},
      {:cowboy, "~> 1.0"},
      {:earmark, "~> 0.1.15"},
-     {:timex, "~> 0.13.4"}]
+     {:timex, "~> 0.13.4"},
+     {:plug_auth, ">= 0.0.0"},
+     {:poolboy, "~> 1.4", override: true}]
   end
 end
