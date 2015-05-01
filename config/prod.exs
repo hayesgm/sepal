@@ -8,7 +8,7 @@ use Mix.Config
 # meaningful, we use this information when generating URLs.
 config :sepal, Sepal.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [host: "example.com"],
+  url: [host: "blog.hayesgm.com"],
   cache_static_manifest: "priv/static/manifest.json"
 
 # ## SSL Support
