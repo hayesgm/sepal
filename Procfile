@@ -1,1 +1,1 @@
-web: mix phoenix.digest && mix phoenix.server 
+web: mix phoenix.digest priv/static -o /www/public && mix phoenix.server 
