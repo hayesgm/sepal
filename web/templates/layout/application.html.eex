@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="A Blog in the Life of a Developer">
+    <meta name="author" content="Geoff Hayes">
 
-    <title>Hello Phoenix!</title>
+    <title>I Passed Along the Way...</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
@@ -15,7 +15,7 @@
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
+          <li><a href="/">Home</a></li>
         </ul>
         <span class="logo"></span>
       </div>
@@ -26,7 +26,7 @@
       <%= @inner %>
 
       <div class="footer">
-        <p><a href="http://phoenixframework.org">phoenixframework.org</a></p>
+        <p><a href="/">Home</a></p>
       </div>
 
     </div> <!-- /container -->
