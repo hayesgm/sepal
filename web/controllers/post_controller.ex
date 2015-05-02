@@ -6,6 +6,9 @@ defmodule Sepal.PostController do
   plug :scrub_params, "post" when action in [:create, :update]
   plug :action
 
+  plug PlugAuth.Authentication.Basic
+  plug PlugAuth.Access.Role, roles: [:admin]
+
   def index(conn, _params) do
     posts = Repo.all(Post)
     render conn, "index.html", posts: posts

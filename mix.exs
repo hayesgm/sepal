@@ -17,7 +17,7 @@ defmodule Sepal.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {Sepal, []},
-     applications: [:phoenix, :cowboy, :logger, :ecto]]
+     applications: [:phoenix, :cowboy, :logger, :ecto, :plug_auth]]
   end
 
   # Specifies which paths to compile per environment
