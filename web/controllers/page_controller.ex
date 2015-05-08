@@ -4,7 +4,7 @@ defmodule Sepal.PageController do
   plug :action
 
   def index(conn, _params) do
-    recent_posts = Repo.all(Sepal.Post, limit: 5)
+    recent_posts = Repo.all(Sepal.Post, limit: 3)
 
     render conn, "index.html", posts: recent_posts
   end

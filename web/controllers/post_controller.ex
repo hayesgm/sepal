@@ -3,11 +3,10 @@ defmodule Sepal.PostController do
 
   alias Sepal.Post
 
+  plug PlugBasicAuth, Application.get_env(:sepal, :admin) when not action in [:show]
+
   plug :scrub_params, "post" when action in [:create, :update]
   plug :action
-
-  plug PlugAuth.Authentication.Basic
-  plug PlugAuth.Access.Role, roles: [:admin]
 
   def index(conn, _params) do
     posts = Repo.all(Post)

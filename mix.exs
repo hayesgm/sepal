@@ -17,7 +17,7 @@ defmodule Sepal.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {Sepal, []},
-     applications: [:phoenix, :cowboy, :logger, :ecto, :plug_auth]]
+     applications: [:phoenix, :cowboy, :logger, :ecto]]
   end
 
   # Specifies which paths to compile per environment
@@ -35,7 +35,7 @@ defmodule Sepal.Mixfile do
      {:cowboy, "~> 1.0"},
      {:earmark, "~> 0.1.15"},
      {:timex, "~> 0.13.4"},
-     {:plug_auth, ">= 0.0.0"},
+     {:plug_basic_auth, github: "hayesgm/plug_basic_auth"},
      {:poolboy, "~> 1.4", override: true}]
   end
 end

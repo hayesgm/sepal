@@ -19,7 +19,11 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
 
-PlugAuth.Authentication.Basic.add_credentials("admin", "redFox22", %{role: :admin})
+config :sepal,
+  admin: [
+    username: "admin",
+    password: "redFox22"
+  ]
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
