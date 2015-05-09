@@ -9,7 +9,8 @@
       <%= for post <- @posts do %>
         <li>
           <a href="<%= post_path @conn, :show, post %>"><%= post.title %></a>
-        </li>  
+          <%= {:safe, Earmark.to_html post.content} %>
+        </li>
       <% end %>
     </ul>
   </div>
