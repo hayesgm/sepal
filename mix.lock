@@ -13,7 +13,7 @@
   "plug_auth": {:hex, :plug_auth, "0.0.3"},
   "plug_basic_auth": {:git, "git://github.com/rbishop/plug_basic_auth.git", "2fbc4d5b1614c9afd1bbed9dcee85c9b5cd642ac", []},
   "poison": {:hex, :poison, "1.4.0"},
-  "poolboy": {:hex, :poolboy, "1.4.2"},
+  "poolboy": {:hex, :poolboy, "1.5.1"},
   "postgrex": {:hex, :postgrex, "0.8.1"},
   "ranch": {:hex, :ranch, "1.0.0"},
   "timex": {:hex, :timex, "0.13.4"}}

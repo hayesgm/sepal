@@ -1,1 +1,1 @@
-web: MIX_ENV=prod mix phoenix.digest && mix phoenix.server 
+web: MIX_ENV=prod mix phoenix.digest && mix phoenix.server --no-deps-check
