@@ -35,7 +35,7 @@ defmodule Sepal.Mixfile do
      {:cowboy, "~> 1.0"},
      {:earmark, "~> 0.1.15"},
      {:timex, "~> 0.13.4"},
-     {:plug_basic_auth, github: "hayesgm/plug_basic_auth"},
+     {:plug_basic_auth, github: "rbishop/plug_basic_auth"},
      {:poolboy, "~> 1.4", override: true}]
   end
 end
