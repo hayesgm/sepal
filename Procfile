@@ -1,1 +1,1 @@
-web: MIX_ENV=prod mix deps.get && mix local.rebar --force && mix deps.compile && mix phoenix.digest && mix phoenix.server
+web: MIX_ENV=prod mix mix local.rebar --force && mix deps.compile && mix phoenix.digest && mix phoenix.server

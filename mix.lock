@@ -5,7 +5,7 @@
   "earmark": {:hex, :earmark, "0.1.15"},
   "ecto": {:hex, :ecto, "0.10.2"},
   "fs": {:hex, :fs, "0.9.2"},
-  "phoenix": {:git, "git://github.com/hayesgm/phoenix.git", "66f9843eca199a75827b5983eebc3d9dca873a34", []},
+  "phoenix": {:hex, :phoenix, "0.12.0"},
   "phoenix_ecto": {:hex, :phoenix_ecto, "0.3.2"},
   "phoenix_haml": {:git, "git://github.com/chrismccord/phoenix_haml.git", "fa237f444e4dbff605165424ec367f0d7960f00c", []},
   "phoenix_html": {:hex, :phoenix_html, "1.0.0"},
