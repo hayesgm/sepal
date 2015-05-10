@@ -28,7 +28,7 @@ defmodule Sepal.Mixfile do
   #
   # Type `mix help deps` for examples and options
   defp deps do
-    [{:phoenix, "~> 0.12.0"},
+    [{:phoenix, github: "hayesgm/phoenix", override: true},
      {:phoenix_html, "~> 1.0"},
      {:phoenix_ecto, "~> 0.3.2"},
      {:postgrex, ">= 0.0.0"},
